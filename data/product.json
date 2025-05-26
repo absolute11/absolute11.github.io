@@ -1,0 +1,148 @@
+[
+  {
+    "id": 1,
+    "title": "Стул Eames белый",
+    "category": "chairs",
+    "price": 7800,
+    "image": "https://source.unsplash.com/800x600/?white-chair&sig=1",
+    "stock": true,
+    "discount": false
+  },
+  {
+    "id": 2,
+    "title": "Стул барный Loft чёрный",
+    "category": "chairs",
+    "price": 11200,
+    "image": "https://source.unsplash.com/800x600/?black-barstool&sig=2",
+    "stock": true,
+    "discount": true
+  },
+  {
+    "id": 3,
+    "title": "Стул из ротанга Boho",
+    "category": "chairs",
+    "price": 9300,
+    "image": "https://source.unsplash.com/800x600/?rattan-chair&sig=3",
+    "stock": true,
+    "discount": false
+  },
+  {
+    "id": 4,
+    "title": "Кресло-качалка Retro",
+    "category": "chairs",
+    "price": 17900,
+    "image": "https://source.unsplash.com/800x600/?rocking-chair&sig=4",
+    "stock": false,
+    "discount": false
+  },
+  {
+    "id": 5,
+    "title": "Кресло-облако велюр",
+    "category": "chairs",
+    "price": 12500,
+    "image": "https://source.unsplash.com/800x600/?velvet-armchair&sig=5",
+    "stock": true,
+    "discount": true
+  },
+  {
+    "id": 6,
+    "title": "Стул металлический Loft",
+    "category": "chairs",
+    "price": 8800,
+    "image": "https://source.unsplash.com/800x600/?metal-chair&sig=6",
+    "stock": true,
+    "discount": false
+  },
+
+  {
+    "id": 7,
+    "title": "Кофейный столик на трёх ножках",
+    "category": "tables",
+    "price": 14600,
+    "image": "https://source.unsplash.com/800x600/?coffee-table&sig=7",
+    "stock": true,
+    "discount": true
+  },
+  {
+    "id": 8,
+    "title": "Письменный стол Walnut 140",
+    "category": "tables",
+    "price": 42800,
+    "image": "https://source.unsplash.com/800x600/?walnut-desk&sig=8",
+    "stock": true,
+    "discount": false
+  },
+  {
+    "id": 9,
+    "title": "Обеденный стол Сканди 6-мест",
+    "category": "tables",
+    "price": 51200,
+    "image": "https://source.unsplash.com/800x600/?dining-table&sig=9",
+    "stock": true,
+    "discount": false
+  },
+  {
+    "id": 10,
+    "title": "Консоль-полка дуб",
+    "category": "tables",
+    "price": 23900,
+    "image": "https://source.unsplash.com/800x600/?console-table&sig=10",
+    "stock": false,
+    "discount": true
+  },
+  {
+    "id": 11,
+    "title": "Круглый стол белый Ø110",
+    "category": "tables",
+    "price": 34700,
+    "image": "https://source.unsplash.com/800x600/?round-table&sig=11",
+    "stock": true,
+    "discount": false
+  },
+
+  {
+    "id": 12,
+    "title": "Диван угловой Nordic",
+    "category": "sofas",
+    "price": 78900,
+    "image": "https://source.unsplash.com/800x600/?corner-sofa&sig=12",
+    "stock": true,
+    "discount": false
+  },
+  {
+    "id": 13,
+    "title": "Диван двухместный Velvet",
+    "category": "sofas",
+    "price": 54900,
+    "image": "https://source.unsplash.com/800x600/?velvet-sofa&sig=13",
+    "stock": true,
+    "discount": true
+  },
+  {
+    "id": 14,
+    "title": "Диван Minimal серый",
+    "category": "sofas",
+    "price": 62900,
+    "image": "https://source.unsplash.com/800x600/?minimal-sofa&sig=14",
+    "stock": false,
+    "discount": false
+  },
+  {
+    "id": 15,
+    "title": "Диван-кокон тканевый",
+    "category": "sofas",
+    "price": 59900,
+    "image": "https://source.unsplash.com/800x600/?cosy-sofa&sig=15",
+    "stock": true,
+    "discount": true
+  },
+  {
+    "id": 16,
+    "title": "Диван Relax с шезлонгом",
+    "category": "sofas",
+    "price": 85800,
+    "image": "https://source.unsplash.com/800x600/?lounge-sofa&sig=16",
+    "stock": true,
+    "discount": false
+  }
+]

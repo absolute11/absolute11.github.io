@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>О нас</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page-wrapper">
+    <header class="site-header">
+        <nav class="nav-menu">
+            <a href="./index.html" class="nav-btn main-page">Главная</a>
+            <a href="./about.html" class="nav-btn about-page active">О нас</a>
+            <a href="./catalog.html" class="nav-btn catalog-page">Каталог</a>
+            <a href="./contacts.html" class="nav-btn contacts-page">Контакты</a>
+            <a href="#" class="btn btn-login">Вход</a>
+            <a href="#" class="btn btn-register">Регистрация</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero hero--about">
+            <h1 class="hero__title">Создаём&nbsp;комфорт с&nbsp;2005&nbsp;года</h1>
+        </section>
+        <!-- HISTORY -->
+        <section class="history">
+            <div class="history__inner container">
+                <figure class="history__media">
+                    <img
+                            src="./photo/FirstFactory.jpg"
+                            alt="Первая мастерская *****, 2005 год"
+                            loading="lazy"
+                    />
+                    <figcaption class="history__caption">
+                        Мастерская в Подмосковье, 2005 г.
+                    </figcaption>
+                </figure>
+
+                <div class="history__text">
+                    <h2>Наша история</h2>
+
+                    <p>
+                        Началось всё с небольшой столярной артели в Подмосковье.
+                        Первые изделия мы строгали буквально вручную, а доставляли
+                        заказчикам на «Газели» друга. Сегодня же {название} — это
+                        собственное производство, шоу-рум в Москве и десятки партнёров
+                        по всей стране.
+                    </p>
+
+                    <ul class="history__stats">
+                        <li><strong>2005</strong> — основание бренда</li>
+                        <li><strong>4500 м²</strong> производственных площадей</li>
+                        <li><strong>5 лет</strong> гарантии на каждое изделие</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- VALUES -->
+        <section class="values">
+            <div class="container">
+                <h2 class="section-title">Наши ценности</h2>
+
+                <ul class="values__grid">
+                    <li class="values__item">
+        <span class="values__icon">
+          <img src="./photo/leaf.svg" alt="" aria-hidden="true" />
+        </span>
+                        <h3 class="values__title">Эко‑материалы</h3>
+                        <p class="values__desc">Используем только FSC‑сертифицированный дуб и льняные ткани без&nbsp;синтетических примесей.</p>
+                    </li>
+
+                    <li class="values__item">
+        <span class="values__icon">
+          <img src="./photo/thumbs-up.svg" alt="" aria-hidden="true" />
+        </span>
+                        <h3 class="values__title">Ручная работа</h3>
+                        <p class="values__desc">Каждое изделие шлифуется и собирается мастером — никакого конвейера.</p>
+                    </li>
+
+                    <li class="values__item">
+        <span class="values__icon">
+          <img src="./photo/shield-check.svg" alt="" aria-hidden="true" />
+        </span>
+                        <h3 class="values__title">5&nbsp;лет гарантии</h3>
+                        <p class="values__desc">Мы уверены в&nbsp;качестве и бесплатно обслуживаем мебель в течение пяти лет.</p>
+                    </li>
+
+                    <li class="values__item">
+        <span class="values__icon">
+          <img src="./photo/map-pin-check-inside.svg" alt="" aria-hidden="true" />
+        </span>
+                        <h3 class="values__title">Сделано в&nbsp;РФ</h3>
+                        <p class="values__desc">Производство находится в Подмосковье — поддерживаем локальный бизнес и сокращаем логистику.</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- TEAM -->
+        <section class="team">
+            <div class="container">
+                <h2 class="section-title">Команда</h2>
+                <ul class="team__grid">
+                    <li class="team-card">
+                        <img src="./photo/male1.jfif" alt="Иван Петров — основатель" loading="lazy" />
+                        <h3>Иван Петров</h3>
+                        <p class="team-card__role">Основатель, CEO</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="./photo/female1.jfif" alt="Ольга Соколова — главный дизайнер" loading="lazy" />
+                        <h3>Ольга Соколова</h3>
+                        <p class="team-card__role">Главный дизайнер</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="./photo/male2.jfif" alt="Алексей Морозов — технолог" loading="lazy" />
+                        <h3>Алексей Морозов</h3>
+                        <p class="team-card__role">Главный технолог</p>
+                    </li>
+                    <li class="team-card">
+                        <img src="./photo/female2.jfif" alt="Анна Гребнева — маркетинг" loading="lazy" />
+                        <h3>Анна Гребнева</h3>
+                        <p class="team-card__role">Маркетинг</p>
+                    </li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Наша компания</h3>
+                <a href="#">О нас</a>
+                <a href="#">Стать партнёром</a>
+                <a href="#">Условия и правила</a>
+            </div>
+            <div class="footer-column">
+                <h3>Узнать больше</h3>
+                <a href="#">Как это работает</a>
+                <a href="#">Частые вопросы</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" />
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Используя этот сайт, вы соглашаетесь с нашими Условиями
+                использования и Политикой конфиденциальности
+            </p>
+        </div>
+    </footer>
+</div>
+
+</body>
+</html>

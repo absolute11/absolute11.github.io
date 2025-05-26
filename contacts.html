@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Контакты</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page-wrapper">
+
+    <header class="site-header">
+        <nav class="nav-menu">
+            <a href="./index.html" class="nav-btn main-page">Главная</a>
+            <a href="./about.html" class="nav-btn about-page">О нас</a>
+            <a href="./catalog.html" class="nav-btn catalog-page">Каталог</a>
+            <a href="./contacts.html" class="nav-btn contacts-page active">Контакты</a>
+            <a href="#" class="btn btn-login">Вход</a>
+            <a href="#" class="btn btn-register">Регистрация</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero hero--contacts">
+            <h1>Контакты</h1>
+        </section>
+
+        <h2 class="map-heading container">Как добраться</h2>
+        <section class="map-block">
+            <iframe
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A1be21e0b198cfc9a9ef&scroll=false"
+                    loading="lazy"></iframe>
+            <div class="map-card card">
+                <h3>Шоу-рум</h3>
+                <p>г. Москва, ул. Строителей, 10</p>
+                <a href="tel:+74951234567" class="map-tel">+7 495 123-45-67</a>
+                <a class="btn-route" href="https://yandex.ru/maps/?rtext=~55.6958,37.5349" target="_blank">
+                    Маршрут →
+                </a>
+            </div>
+        </section>
+
+        <section class="contact-grid container">
+
+            <article class="contact-item card card--call">
+                <div class="card-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none">
+                        <path d="M4 5c4 8 8 12 16 15l3-3c.5-.5.5-1.2-.1-1.7l-3.7-2.8c-.5-.4-1.1-.3-1.5.1l-1.7 1.8a19.4 19.4 0 0 1-7.8-7.8l1.8-1.8c.4-.4.5-1 .1-1.5L7 1.1C6.5.5 5.8.5 5.3 1L2 4c-.3.4-.4 1 0 1z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/></svg>
+                </div>
+                <h3>Позвонить</h3>
+                <p class="tel-big">
+                    <a href="tel:+74951234567">+7&nbsp;495&nbsp;123-45-67</a>
+                </p>
+                <small>пн–вс 10:00–20:00</small>
+            </article>
+
+            <article class="contact-item card card--write">
+                <div class="card-icon">
+                    <svg width="28" height="28" viewBox="0 0 24 24" fill="none"><path d="M22 2 11 13" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><path d="m22 2-7 20-4-9-9-4 20-7Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/></svg>
+                </div>
+                <h3>Написать</h3>
+
+                <a class="email-link" href="mailto:DenisGit@mail.ru">DenisGit@mail.ru</a>
+
+                <div class="messengers">
+                    <a href="https://wa.me/79991234567" class="messenger wapp" aria-label="WhatsApp"></a>
+                    <a href="https://t.me/deniska" class="messenger tg"   aria-label="Telegram"></a>
+                </div>
+            </article>
+        </section>
+
+        <hr class="section-divider">
+
+        <section class="contact-form container">
+            <h2 class="section-title">Есть вопрос?</h2>
+
+            <form onsubmit="e.preventDefault(); alert('Спасибо! Мы свяжемся с вами.');">
+                <div class="two-cols">
+                    <input type="text" placeholder="Ваше имя *" required>
+                    <input type="email" placeholder="E-mail *" required>
+                </div>
+
+                <textarea rows="5" placeholder="Сообщение"></textarea>
+
+                <label class="checkbox">
+                    <input type="checkbox" required>
+                    <span>Согласен на обработку персональных данных</span>
+                </label>
+
+                <button class="btn btn--primary">Отправить</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-columns container">
+            <div class="footer-column">
+                <h3>Наша компания</h3>
+                <a href="./about.html">О нас</a>
+                <a href="#">Стать партнёром</a>
+                <a href="#">Условия и правила</a>
+            </div>
+            <div class="footer-column">
+                <h3>Узнать больше</h3>
+                <a href="#">Как это работает</a>
+                <a href="#">FAQ</a>
+                <a href="contacts.html">Контакты</a>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <form class="subscribe-form" onsubmit="return false;">
+                    <input type="email" placeholder="Введите e-mail" required>
+                    <button type="submit">OK</button>
+                </form>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Используя сайт, вы соглашаетесь с <a href="#">Условиями</a> и <a href="#">Политикой конфиденциальности</a>.</p>
+        </div>
+    </footer>
+
+</div>
+</body>
+</html>

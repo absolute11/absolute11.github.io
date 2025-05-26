@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Каталог</title>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page-wrapper">
+    <header class="site-header">
+        <nav class="nav-menu">
+            <a href="./index.html" class="nav-btn main-page">Главная</a>
+            <a href="./about.html" class="nav-btn about-page">О нас</a>
+            <a href="./catalog.html" class="nav-btn catalog-page active">Каталог</a>
+            <a href="./contacts.html" class="nav-btn contacts-page">Контакты</a>
+            <a href="#" class="btn btn-login">Вход</a>
+            <a href="#" class="btn btn-register">Регистрация</a>
+        </nav>
+    </header>
+    <main>
+        <section class="hero hero--catalog">
+            <div class="hero-content">
+                <h1>Каталог</h1>
+            </div>
+        </section>
+
+        <section class="catalog container">
+            <button class="filter-toggle" id="filterToggle">
+                Фильтр
+                <svg width="20" height="20" viewBox="0 0 24 24"><path d="M3 5h18M6 12h12M10 19h4" stroke="currentColor" stroke-width="2" fill="none"/></svg>
+            </button>
+
+            <div id="filterModal" class="modal" aria-hidden="true">
+                <div class="modal__backdrop"></div>
+
+                <aside class="modal__panel catalog-filter" role="dialog" aria-labelledby="filterTitle">
+
+                    <button class="modal__close" aria-label="Закрыть фильтр" type="button">×</button>
+
+                    <h2 id="filterTitle" class="filter-head">Фильтры</h2>
+
+                    <label class="filter-label" for="catSelect">Категория</label>
+                    <select id="catSelect" class="select">
+                        <option value="">Все</option>
+                        <option value="chairs">Кресла</option>
+                        <option value="sofas">Диваны</option>
+                        <option value="tables">Столы</option>
+                    </select>
+
+                    <label class="filter-label" for="priceRange">Цена до, ₽</label>
+                    <input type="range" id="priceRange" min="1000" max="150000" step="1000" value="150000">
+                    <div class="filter-range">
+                        <span id="priceMin">0</span> – <span id="priceMax">150 000</span>
+                    </div>
+
+                    <label class="checkbox"><input type="checkbox" id="inStockChk"> <span>В наличии</span></label>
+                    <label class="checkbox"><input type="checkbox" id="discountChk"> <span>Скидки</span></label>
+
+                    <button id="applyBtn" type="button" class="btn btn--primary">Применить</button>
+                </aside>
+            </div>
+
+            <div id="productsGrid" class="catalog-grid" aria-live="polite"></div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer-columns">
+            <div class="footer-column">
+                <h3>Наша компания</h3>
+                <a href="#">О нас</a>
+                <a href="#">Стать партнёром</a>
+                <a href="#">Условия и правила</a>
+            </div>
+            <div class="footer-column">
+                <h3>Узнать больше</h3>
+                <a href="#">Как это работает</a>
+                <a href="#">Частые вопросы</a>
+                <a href="#">Контакты</a>
+            </div>
+            <div class="footer-column">
+                <h3>Подписаться</h3>
+                <div class="subscribe-form">
+                    <input type="email" placeholder="Введите ваш email" />
+                    <button type="submit">Отправить</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>
+                Используя этот сайт, вы соглашаетесь с нашими Условиями
+                использования и Политикой конфиденциальности
+            </p>
+        </div>
+    </footer>
+</div>
+<script src="./js/catalog.js" type="module"></script>
+</body>
+</html>
